@@ -1,0 +1,39 @@
+#menu_selector {
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+#page {
+    background-color: rgb(85, 85, 85);
+    float:left;
+    width: 100%;
+}
+
+body, html { 
+    background-color: rgb(27, 27, 27);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button_menu {
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.button_menu:hover {
+    opacity: 0.9;
+    .button_menu_image {
+        height:85%
+    }
+}
+
+.button_menu_image {
+    height: 90%;
+    margin: auto;
+    display: block;
+}
