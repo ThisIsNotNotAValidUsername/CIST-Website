@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+        <title>UNO Guide</title>
+        <link rel="icon" href="UNO_Logo.png" type="image/png">
+    </head>
+
+    <body onload="onload()">
+        <div id="menu_selector">
+            <div class="button_menu" id="button_menu_main" onclick="switchMenu('menu_main')"><img src="button_menu_main_logo.jpg" alt="main menu" class="button_menu_image"></div>
+            <div class="button_menu" id="button_menu_time_management_main" onclick="switchMenu('menu_time_management')"><img src="button_menu_time_management_logo.png" alt="time managment menu" class="button_menu_image"></div>
+            <div class="button_menu" id="button_menu_university_resources_main" onclick="switchMenu('menu_university_resources')"><img src="button_menu_university_resources_logo.png" alt="university resources menu" class="button_menu_image"></div>
+            <div class="button_menu" id="button_menu_personal_experience_main" onclick="switchMenu('menu_personal_experience')"><img src="button_menu_personal_experience_logo.png" alt="personal experience menu" class="button_menu_image"></div>
+        </div>
+
+        <div id="page">
+            <div id="menu_main">Main</div>
+
+            <div id="menu_time_management" style="display: none;">Time</div>
+
+            <div id="menu_university_resources" style="display: none;">University</div>
+
+            <div id="menu_personal_experience" style="display: none;">Peronsal</div>
+        </div>
+    </body>
+</html>
