@@ -1,1 +1,1 @@
-Link to open the index in a webpage: https://htmlpreview.github.io/?https://github.com/ThisIsNotNotAValidUsername/CIST-Website/blob/main/index.html
+Link to open the index in a webpage: [https://htmlpreview.github.io/?https://github.com/ThisIsNotNotAValidUsername/CIST-Website/blob/main/index.html](https://rawcdn.githack.com/ThisIsNotNotAValidUsername/CIST-Website/4b6a4ae347e0a45c41c5c645ca706575896c6828/index.html)
